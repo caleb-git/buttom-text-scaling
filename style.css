@@ -19,9 +19,9 @@ a{
     font-size: 45px;
     border: 5px solid crimson;
     padding: 45px 90px;
+    transition: all 0.5s;
     position: relative;
     overflow: hidden;
-    transition: all 0.5s;
 }
 
 a:before{
@@ -39,7 +39,7 @@ a:before{
 
     transform: scale(5);
     opacity: 0;
-    transition: transform 0.5s;
+    transition: all 0.5s;
     
 }
 
